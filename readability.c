@@ -21,10 +21,6 @@ int main(void)
     float index = 0.0588 * (100 * (float) l / (float) w) - 0.296 * (100 * (float) s / (float) w) - 15.8;
 
     int grade = round(index);
-
-    //printf("%i letter(s)\n", l);
-    //printf("%i word(s)\n", w);
-    //printf("%i sentence(s)\n", s);
     //Output
     if (grade < 1)
     {
